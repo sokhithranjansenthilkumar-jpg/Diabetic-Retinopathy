@@ -1,0 +1,23 @@
+DIABETIC RETINOPATHY DETECTION REPORT
+====================================
+
+Date and Time: 01-Sep-2026 10:25:50
+
+PATIENT INFORMATION
+--------------------
+Patient ID: p2490
+Patient Name: shanmitha 
+Age: 20
+
+Prediction: Moderate
+Severity: Moderate
+Risk Level: MEDIUM
+Model Score: 34.53%
+
+Model: ResNet-50 + SVM
+Test Accuracy: 75.55%
+
+Recommendation: Moderate changes detected. Further ophthalmic evaluation is recommended.
+
+Image analyzed:
+C:\Users\acer\OneDrive - ELCOT\Documents\MATLAB\DiabeticRetinopathyProject\dataset\Moderate\0a9ec1e99ce4.png
