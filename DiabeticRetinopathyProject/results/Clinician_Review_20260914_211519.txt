@@ -1,0 +1,16 @@
+DIABETIC RETINOPATHY CLINICIAN REVIEW
+====================================
+
+AI Prediction: Prediction: Proliferate_DR
+Model Score: Calibrated Confidence: 33.16%
+Severity: Severity: Level 4 - Proliferative DR
+
+Clinician Decision: Confirmed by Clinician
+
+Clinician Comments:
+very good services
+
+Image:
+C:\Users\acer\OneDrive - ELCOT\Documents\MATLAB\DiabeticRetinopathyProject\dataset\Moderate\0ac436400db4.png
+
+Date and Time: 14-Sep-2026 21:15:20

@@ -1,23 +1,94 @@
 DIABETIC RETINOPATHY DETECTION REPORT
 ====================================
 
-Date and Time: 01-Sep-2026 10:25:50
+Date and Time: 14-Sep-2026 21:14:19
 
 PATIENT INFORMATION
 --------------------
-Patient ID: p2490
-Patient Name: shanmitha 
+Patient ID: 24079
+Patient Name: sokhith
 Age: 20
 
-Prediction: Moderate
-Severity: Moderate
-Risk Level: MEDIUM
-Model Score: 34.53%
+AI SCREENING RESULT
+-------------------
+Prediction: Proliferate_DR
+Severity: Level 4 - Proliferative DR
+Risk Level: VERY HIGH
+Calibrated Confidence: 33.16%
 
-Model: ResNet-50 + SVM
-Test Accuracy: 75.55%
+Test Accuracy: 75.00%
 
-Recommendation: Moderate changes detected. Further ophthalmic evaluation is recommended.
+IMAGE QUALITY ASSESSMENT
+------------------------
+Focus / Blur: 100.00% (GOOD)
 
-Image analyzed:
-C:\Users\acer\OneDrive - ELCOT\Documents\MATLAB\DiabeticRetinopathyProject\dataset\Moderate\0a9ec1e99ce4.png
+Illumination: 95.20% (GOOD)
+Field of View: 100.00% (GOOD)
+Overall Quality: 98.56% (GOOD)
+
+LESION EVIDENCE
+---------------
+Blood Vessel Regions: 17
+Microaneurysm Candidates: 119
+Exudate Candidates: 16
+Hemorrhage Candidates: 16
+Neovascularization Candidates: 0
+
+EXPLAINABILITY
+--------------
+The Explain Prediction feature uses occlusion-based analysis to highlight image regions that influence the model score.
+
+Lesion Evidence provides candidate retinal lesion regions using image-processing techniques.
+
+Optic Disc and Fovea localization provides automated prototype retinal structure localization.
+
+RECOMMENDATION
+--------------
+Recommendation: Advanced changes detected. Urgent ophthalmic evaluation is recommended.
+
+IMAGE ANALYZED
+--------------
+C:\Users\acer\OneDrive - ELCOT\Documents\MATLAB\DiabeticRetinopathyProject\dataset\Moderate\0ac436400db4.png
+
+
+DIABETIC RETINOPATHY SCREENING SUMMARY
+====================================
+
+Patient Information
+-------------------
+Patient ID: 24079
+Patient Name: sokhith
+Age: 20
+
+AI RESULT
+---------
+Prediction: Proliferate_DR
+Severity: Level 4 - Proliferative DR
+Risk Level: VERY HIGH
+
+CONFIDENCE
+----------
+Calibrated Confidence: 33.16%
+
+IMAGE QUALITY
+-------------
+Focus / Blur: 100.00% (GOOD)
+Illumination: 95.20% (GOOD)
+Field of View: 100.00% (GOOD)
+Overall Quality: 98.56% (GOOD)
+
+CLINICAL EVIDENCE
+-----------------
+Lesion Evidence: Available
+Grad-CAM: Available
+Optic Disc: Detected
+Fovea: Localized
+
+RECOMMENDATION
+--------------
+Recommendation: Advanced changes detected. Urgent ophthalmic evaluation is recommended.
+
+IMPORTANT NOTE
+--------------
+This system is intended as an AI-assisted screening prototype and does not replace examination or diagnosis by a qualified eye-care professional.
+Lesion detections are image-processing candidate regions and are not clinically validated diagnoses.
